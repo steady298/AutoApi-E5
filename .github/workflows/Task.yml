@@ -11,6 +11,8 @@ on:
     - cron: '12 */3 * * *'
   watch:
     types: [started]
+  workflow_dispatch:  # 允许手动触发workflow
+   
    
 jobs:
    Task:
